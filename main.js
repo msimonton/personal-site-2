@@ -90,5 +90,8 @@ $(window).scroll(function(){
 
         document.onscroll = scroll;
 
+ $('#upside-prev').click(function()  {
+   alert('As stated in the description, this is a live site where visitors can purchase tickets to future events. However, since there are a limited number of tickets available, we ask that you do not purchase tickets if you are directed there from my personal site. That being said, if you want to support them, please feel free to make a donation. Thanks!')
 
+})
 });
